@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+}
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1047%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(35%2c 36%2c 38%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c426.372C77.764%2c412.716%2c152.079%2c379.61%2c208.403%2c324.281C258.985%2c274.592%2c256.951%2c194.302%2c296.291%2c135.312C346.666%2c59.775%2c460.293%2c22.772%2c469.701%2c-67.533C478.931%2c-156.131%2c413.88%2c-244.157%2c341.187%2c-295.64C272.747%2c-344.111%2c177.719%2c-307.578%2c97.276%2c-331.293C16.699%2c-355.048%2c-43.449%2c-437.619%2c-127.367%2c-433.771C-216.33%2c-429.692%2c-304.984%2c-381.793%2c-358.229%2c-310.407C-410.421%2c-240.434%2c-404.367%2c-145.799%2c-407.238%2c-58.552C-409.832%2c20.258%2c-397.645%2c95.586%2c-374.067%2c170.831C-347.468%2c255.717%2c-334.879%2c356.608%2c-261.426%2c406.787C-187.778%2c457.099%2c-87.849%2c441.799%2c0%2c426.372' fill='%231b1c1e'%3e%3c/path%3e%3cpath d='M1440 995.005C1519.746 987.733 1571.842 911.94 1632.824 860.04 1685.599 815.125 1742.9 774.505 1772.635 711.909 1802.632 648.762 1816.138 576.255 1799.934 508.249 1784.357 442.874 1736.717 390.849 1685.71 347.091 1639.8029999999999 307.709 1583.856 283.949 1524.56 272.014 1468.964 260.823 1413.636 269.558 1358.123 281.152 1298.125 293.683 1236.019 303.317 1188.62 342.178 1136.522 384.892 1103.313 444.821 1080.976 508.38 1054.786 582.903 1022.258 664.202 1049.376 738.392 1076.8890000000001 813.663 1156.186 853.395 1223.1680000000001 897.3969999999999 1290.784 941.816 1359.433 1002.352 1440 995.005' fill='%232b2c2e'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1047'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    text-align:center;
+    margin: 0 auto;
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.topnav a {
+    float:left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: grey;
+    color: white;
+}
+
+form{
+    margin-left:0px;
+    background: none;
+    width: inherit;
+    margin:0 auto;
+}
+input{
+    height:30px;
+    color:black;
+}
+select{
+    color:black;
+    height:30px;
+}
+option{color:black;}
